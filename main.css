@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+h1 {
+  color:rgb(225, 241, 134));
+}
+
+
+h2 {
+  color:rgb(225, 241, 134);}
+
+  
+body {
+    background-color: #cbaf87;
+    font-weight: 700;
+    color: #fff;
+    font-size: 22px;
+    font-family:'Orbitron', sans-serif;
+    overflow: auto;
+}
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(5,400px 1fr 1fr 1fr);
+    margin-top: 20px;
+    grid gap: 20px;
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color #fff;
+
+}
+
+li :nth-child(1){
+    margin-right: 200px;
+}
+
+
+li :nth-child(2){
+    margin-left: 340px;
+}
+
+.nav-link{
+    text-align: center;
+    padding: 10px; 30px;
+    padding-top: 5px;
+    border-radius: 50px;
+}
+
+.nav-link not (:first-of-type){
+    background-color: #fff;
+    transition: transform .3s;
+
+}
+
+
+.nav-link not (:first-of-type):hover{
+    background-color:#fff;
+    cursor:pointer;
+    transform: translateY(5px);
+
+
+ 
+    <style>
+    .holdingcontainer{
+      max-width: 100%;
+      display: flex;
+      background: #a3ddcb;
+      padding: 50px;
+      box-sizing: border-box;
+      flex-direction: row;
+    }
+
+    .internalcontainerL{
+      flex: 9;
+      background:#cbaf87;
+      padding: 5px;
+      font-size: 30px;
+      font-family: 'Amatic SC', cursive;
+      margin: 0px;
+    }
+
+    
+    
+
+    .internalcontainerR{
+      flex: 5;
+      background:#cbaf87;
+      padding: 5px;
+      font-size: 30px;
+      font-family: 'Amatic SC', cursive;
+      margin: 0px;
+    }
+
+    @media screen and (max-width: 768px){
+      .holdingcontainer{
+        flex-direction: column-reverse;
+      }
+    }
+    .logo{
+      width: 0px;
+      height: 0px;
+      background-color: #fff;
+      position;resize: both;
+      top: 0px;
+      right: opx;
+    }
+
+    footer {
+      position: right;
+      clear: both;
+      color: #fff;
+      background-color: aqua;
+      text-align: center;
+      height: 50px;
+      font-size: 80%;
+      margin-left: -100%;
+      margin-right: -100%;
+    }
+
+
+
+
+
+ #para1 {
+  color:orangered;
+    }

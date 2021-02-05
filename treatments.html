@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale = 1">
+    <link rel="stylesheet" href="main.css">
+    <title>css flexbox</title>
+
+
+    
+    <style>
+    .holdingcontainer{
+      max-width: 100%;
+      display: flex;
+      background: #cbaf87;
+      padding: 50px;
+      box-sizing: border-box;
+      flex-direction: row;
+    }
+
+    .internalcontainerL{
+      flex: 1;
+      background:#a3ddcb;
+      padding: 30px;
+      font-size: 20px;
+      font-family: 'Amatic SC', cursive;
+      margin: 4px;
+    }
+
+    .internalcontainerM{
+      flex: 1;
+      background:#cbaf87;
+      padding: 30px;
+      font-size: 20px;
+      font-family: 'Amatic SC', cursive;
+      margin: 4px;
+    }
+
+    .internalcontainerR{
+      flex: 1;
+      background:#a3ddcb;
+      padding: 30px;
+      font-size: 20px;
+      font-family: 'Amatic SC', cursive;
+      margin: 4px;
+    }
+
+    @media screen and (max-width: 768px){
+      .holdingcontainer{
+        flex-direction: column-reverse;
+      }
+    }
+    </style>
+  </head>
+
+  <body>
+
+    <div class = "navbar">
+        
+      <li class="nav-link"><a href=""></a></li>
+      <li class="nav-link"><a href="index.html">Home</a></li>
+      <li class="nav-link"><a href="price.html">Price</a></li>
+      <li class="nav-link"><a href="contact3.html">Contact</a></li>
+  </div>
+
+
+    <div class="holdingcontainer">
+      <div class="internalcontainerL"><h1>Thai Compress</h1><img class="images" src="images/herbal compress.jpg" width="100%"/>The Thai Herbal Compress is a Healing  Technique from Thailand. It provides an overall sensation of well being. The heat relax's muscles and inflammation. A selection of therapeutic herbs, including, ginger, turmeric and lemongrass, are wrapped in a muslin compress, steamed and then applied to the body in gentle pressing, circular and rolling movements. </div>
+
+      <div class="internalcontainerM"><h1>Hot Stones Massage</h1><img class="images" src="images/spine.jpg" width="100%"/>The placement of smooth, heated stones at key points on the body are used to help you relax and ease tense muscles , and help boost circulation. </div>
+
+      <div class="internalcontainerR"><h1>Swedish Massage</h1><img class="images" src="images/swedish.jpg" width="100%"/>Working swiftly and deeply where you need it most, traditional Swedish massage with pure, nourishing oils boosts circulation and awakens the body from top to toe. Flushing out toxins,keeping ligaments and tendons supple and reducing emotional and physical stress</div>
+    </div>
+  </body>
+</html>
